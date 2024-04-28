@@ -1,0 +1,56 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.main-container{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-image: url("https://media.istockphoto.com/id/694725410/photo/university-students-studying-in-a-group.jpg?s=2048x2048&w=is&k=20&c=Uygb7EBzWJ_K1hnb4DzrIp0njj2nrrchKJkFSAUz9Hs=");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.login-form{
+	height: 500px;
+	width: 500px;
+	padding: 30px;
+	background: transparent;
+	backdrop-filter: blur(10px);
+	position: absolute;
+	top: 15%;
+	right: 200px;
+	border-radius: 50px;
+	box-shadow: -6px -6px 20px whitesmoke;
+}
+input{
+	width: 90%;
+	margin-top: 20px;
+	height: 60px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 3px solid white;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+
+}
+
+.lgn{
+	font-family: Arial Black;
+	font-weight: 100;
+	color: royalblue;
+}
+.lgnbtn{
+	border: none;
+	background-color:royalblue;
+	height: 70px;
+	border-radius: 15px;
+	font-size: 25px;
+	line-height:30px;
+	font-family: Arial Black;
+}
